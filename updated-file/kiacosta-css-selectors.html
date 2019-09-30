@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>IST 263</title>
+
+    <!-- This is loading an external CSS file -->
+    <link href="../style.css" rel="stylesheet" />
+
+    <style>
+            ul{
+                margin: 0; 
+                padding: 0; 
+                list-style-type: none;
+            }
+        li{
+            padding: 10px; 
+            width: 38.5%; 
+        }
+
+        tr.odd:hover{
+            color: lightseagreen;
+        }
+
+        tr.even:hover{
+            color: lightsalmon;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            padding: 10px;
+        }
+        
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        
+
+        #patriots {
+            color: #e90101;
+            background: #07163f;
+        }
+
+        #eagles{√
+            color: #BBC4C9; 
+            background: #014A53; 
+        }
+
+        #broncos{
+            color: navy; 
+            background: orangered;
+        }
+
+        #seahawks{
+            color: #7AC142;
+            background: #002A5C;
+        }
+        id-selector
+        
+      
+        a:hover {
+            color: orange; 
+         }   
+        }
+
+        /* Pseudo clases */
+        /* Table width via pseudo-classes */
+        /*
+            - How do we add different colors for table rows?
+            - Expand the list of NFL winners, add classes for NFC and AFC teams
+            - Add IDs for team names so you can choose their colors
+        */
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <hr>
+    <h2>This is my shopping list</h2>
+    <img src="./shopping-list.png" alt="Shopping List">
+
+    <p>I want to add CSS to change the list below to look like the list above</p>
+
+    <ul>
+        <li class="odd">Coffee</li>
+        <li class="even">Oats</li>
+        <li class="odd">Milk</li>
+        <li class="even">Maple Syrup</li>
+    </ul>
+    <hr>
+    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h2>This is list of Superbowl winners</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Winner</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="odd">
+                <td>2019</td>
+                <td id="patriots">Patriots</td>
+                <td><a href="http://www.patriots.com/">http://www.patriots.com/</a></td>
+            </tr>
+
+            <tr class="even">
+                <td>2018</td>
+                <td id="eagles">Eagles</td>
+                <td> <a href="http://www.philadelphiaeagles.com"> http://www.philadelphiaeagles.com</a></td>
+            </tr>
+
+            <tr class="odd"> 
+                <td>2017</td>
+                <td id="patriots">Patriots</td>
+                <td><a href="http://www.patriots.com/">http://www.patriots.com/</a></td>
+            </tr>
+
+            <tr class="odd">
+                <td>2016</td>
+                <td id="broncos">Broncos</td>
+                <td><a href="https://www.denverbroncos.com">https://www.denverbroncos.com</a>
+                </td>
+            </tr>
+
+            <tr class="odd">
+                <td>2015</td>
+                <td id="patriots">Patriots</td>
+                <td><a href="http://www.patriots.com/">http://www.patriots.com/</a></td>
+            </tr>
+
+            <tr class="even">
+                <td>2014</td>
+                <td id="seahawks">Seahawks</td>
+                <td>
+                    <a href="https://www.seahawks.com">https://www.seahawks.com</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
