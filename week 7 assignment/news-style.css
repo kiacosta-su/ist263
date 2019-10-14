@@ -1,0 +1,57 @@
+header{
+    background: #333; 
+    color: #fff; 
+}
+
+div.header{
+    padding: 5px; 
+}
+
+div.header p{ 
+    margin: 0;
+}
+
+
+div.header h1{
+    margin: 5px 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width:1200px; 
+    margin:0 auto; 
+}
+
+
+img {
+    border: 1px solid #999;
+}
+ 
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+
+img{
+    width: 100%;
+    height:auto;
+}
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    margin: 10px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+
