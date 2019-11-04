@@ -6,7 +6,7 @@ body, html{
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/kimberlyacosta/Desktop/IST 263/solo-project/Images/love.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/love.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
