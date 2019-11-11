@@ -44,25 +44,13 @@ h1{
     font-size: 300%;
 }
 
-/* #pic1{
-    height: 22.5%;
-} */
 
-/* #pic2{
-    width:25%;
-} */
 
 body{
     font-family: 'Nunito', sans-serif;
     background-color: #EEE2DC;
 }
 
-/* #art{
-    position: relative ;
-    bottom: 40px;
-    top: 20px;
-
-} */
 
 .footer{
     position:static; 
@@ -82,3 +70,24 @@ body{
     display: inline-block;
     weight: 25%;
 }
+.imggrid{
+    padding:2px 50px 65px 50px;
+}
+.rowgrid{
+    display:flex;
+    flex-wrap:none;
+    padding:0 0px;
+}
+.colgrid{
+    flex:33.33%;
+    max-width:33.33%;
+    padding:0 0px;
+}
+.colgrid img{
+    margin-top:12px;
+    vertical-align:middle;
+    width:70%;
+    height:200px;
+
+}
+
