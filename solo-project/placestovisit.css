@@ -32,7 +32,7 @@ body,html{
     background-color: #EEE2DC;
 }
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/kimberlyacosta/Desktop/IST 263/solo-project/Images/travel-cover.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/travel-cover.jpg");
     height: 50%; 
     background-position: center; 
     background-repeat: no-repeat;
