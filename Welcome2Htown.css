@@ -1,0 +1,126 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #FDAC4F;
+}
+
+#h1{
+    font-size: 50px; 
+}
+
+/* hero image begins */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/downtown.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 120%;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* main content */
+.row img{
+width: 75%;
+height: auto;
+text-align: center;
+
+}
+.col-sm-9 .row{
+border-bottom: 1px solid #555;
+}
+
+.row{
+display:flex;
+padding-left:5%;
+padding-right:6%; 
+padding-bottom: 5%;
+padding-top: 5%;
+}
+.col{
+flex:50%;
+}
+
+/* side content 
+  when converted it did not move to the side 
+  main is good
+*/
+
+/*--for nav --*/
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: #ffd9b3; 
+}
+
+li{
+float:right;
+}
+
+li a{
+display:block;
+color:palevioletred; 
+text-align: center;
+padding: 20px 20px;
+text-decoration: none; 
+}
+
+li a:hover{
+background-color: grey;
+}
+
+/* working with footer */
+.footer{
+position:static; 
+left: 0;
+bottom: 0; 
+width: 100%; 
+background-color: grey; 
+color: whitesmoke; 
+text-align: center; 
+padding-top: 20px;
+padding-bottom: 20px;
+text-transform: uppercase;
+}
+
+/* want to make font bigger and bold!!! */
+
+.sidebar{
+background-color: #ffd9b3;
+}
+
+.col-sm-3{
+text-align: center;
+}
+
+
+
