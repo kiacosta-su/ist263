@@ -87,10 +87,16 @@ body, html{
     padding-bottom: 20px; 
     text-transform: bold; 
     background-color: #EEE2DC;
+    font-size: 18px; 
 }
 
 h2{
-  font-size: 25px;
+  font-size: 34px;
   font-family: 'Fjalla One', sans-serif;
 }
+
+figcaption{
+  font-size: 18px; 
+}
+
 

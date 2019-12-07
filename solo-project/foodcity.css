@@ -1,3 +1,8 @@
+/** navbar **/
+.navbar-brand{
+    size: 18pt;
+    color: black; 
+}
 ul{
     list-style-type: none; 
     margin: 0; 
@@ -45,7 +50,7 @@ h1{
 
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: #EEE2DC;
+    background-color: #dec6ba ;
 }
 .figure{
     display: inline-block;
@@ -96,14 +101,14 @@ body{
 
 }
 
-h3{
+h2{
     font-family: 'Fjalla One', sans-serif;
     color: white;
     background-color:  #45A29E ;
     
    
 }
-h2{
+h3{
     font-family: 'Fjalla One', sans-serif;
 
 }
@@ -123,4 +128,8 @@ h2{
     background:  beige;
     color: black; 
 
+}
+
+.figcaption{
+    size: 100px; 
 }
