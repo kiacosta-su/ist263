@@ -74,7 +74,7 @@ body,html{
 
   /* editing image + paragraphs */
 .row img{
-    width: 50%;
+    width: 95%;
     height: auto;
     text-align: center;
     
@@ -95,6 +95,7 @@ body,html{
     padding-right:20%; */
   }
 
+
 .footer{
     position:static; 
     left: 0;
@@ -105,10 +106,15 @@ body,html{
     text-align: center; 
     padding-top: 20px;
     padding-bottom: 20px;
-    text-transform: uppercase;
+    /** text-transform: uppercase; **/
   }
 
   /* want to make font bigger and bold!!! */
 .navbar-brand{
   color:black;
 }
+
+figcaption{
+  font-family: 'Fjalla One', sans-serif;
+}
+
