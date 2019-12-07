@@ -1,0 +1,120 @@
+/*--for nav --*/
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #99ddff;
+  
+  }
+  
+li{
+    float:right;
+  }
+  
+li a{
+    display:block;
+    color:black; 
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none; 
+  }
+  
+li a:hover{
+    background-color: grey;
+  }
+
+.nav-item{
+  color:purple; 
+}
+
+/* starting to edit hero image + text */
+
+body,html{
+    height:100%; 
+    margin:0; 
+    font-family:'Nunito', sans-serif;
+    background-color: #EEE2DC;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/travel-cover.jpg");
+    height: 50%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+}
+
+.hero-text{
+    text-align:center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 120%;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  /* editing image + paragraphs */
+.row img{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    
+  }
+  
+.row{
+    display:flex;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom: 5%;
+    padding-top:5%;
+    border-bottom: 1px solid #555;
+  }
+
+.col{
+    flex:50%;
+    /*padding-left: 20%;
+    padding-right:20%; */
+  }
+
+
+.footer{
+    position:static; 
+    left: 0;
+    bottom: 0; 
+    width: 100%; 
+    background-color: #99ddff;
+    color: black; 
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /** text-transform: uppercase; **/
+  }
+
+  /* want to make font bigger and bold!!! */
+.navbar-brand{
+  color:black;
+}
+
+figcaption{
+  font-family: 'Fjalla One', sans-serif;
+}
+
