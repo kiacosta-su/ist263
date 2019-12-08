@@ -101,7 +101,10 @@ h2{
 }
 
 figcaption{
-  font-size: 20px; 
+  font-size: 18px;
+  border: solid #E7717D 3px; 
+  background:  #EEE2DC;
+  width: 150px; 
 }
 
 
