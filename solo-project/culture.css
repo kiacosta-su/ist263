@@ -85,13 +85,12 @@ h1{
     left:0; 
     bottom: 0;
     width:100%; 
-    background-color:grey; 
-    color:black; 
+    color:whitesmoke; 
     text-align:center; 
     padding-top: 20px; 
     padding-bottom: 20px; 
     text-transform: bold; 
-    background-color: #EEE2DC;
+    background-color: #000a1a;
     font-size: 20px; 
 }
 
@@ -102,9 +101,9 @@ h2{
 
 figcaption{
   font-size: 18px;
-  border: solid #E7717D 3px; 
-  background:  #EEE2DC;
-  width: 150px; 
+  color:#000a1a;
+  
 }
+
 
 
