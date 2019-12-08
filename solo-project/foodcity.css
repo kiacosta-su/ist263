@@ -1,6 +1,6 @@
 /** navbar **/
 .navbar-brand{
-    size: 18pt;
+    font-size: 32px;
     color: black; 
 }
 ul{
@@ -22,6 +22,7 @@ li a{
     padding: 25px 25px; 
     text-decoration: none; 
 }
+
 li a:hover{
     background-color: #111; 
 }
@@ -54,7 +55,7 @@ body{
 }
 .figure{
     display: inline-block;
-    weight: 25%;
+   
 }
 .imggrid{
     padding:2px 50px 65px 50px;
@@ -88,6 +89,7 @@ body{
     padding-top: 20px;
     padding-bottom: 10px;
     text-transform: bold;
+    font-size: 20px;
 }
 
 .carousel-caption{
@@ -105,8 +107,7 @@ h2{
     font-family: 'Fjalla One', sans-serif;
     color: white;
     background-color:  #45A29E ;
-    
-   
+    font-size: 55px;
 }
 h3{
     font-family: 'Fjalla One', sans-serif;
@@ -122,14 +123,16 @@ h3{
 }
 
 .food{
-    font-size: 15px;  
-    width: 300px; 
+    font-size: 25px;  
+    width: 350px; 
     border: solid #45A29E 3px;
     background:  beige;
     color: black; 
 
 }
 
-.figcaption{
-    size: 100px; 
+figcaption{
+    font-size: 20px; 
 }
+
+

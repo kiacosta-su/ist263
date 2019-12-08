@@ -28,6 +28,9 @@ li a:hover{
   color:purple; 
 }
 
+.navbar-brand{
+  font-size: 32px;
+}
 /* starting to edit hero image + text */
 
 body,html{
@@ -106,6 +109,7 @@ body,html{
     text-align: center; 
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 20px;
     /** text-transform: uppercase; **/
   }
 
@@ -116,8 +120,13 @@ body,html{
 
 figcaption{
   font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
 }
 
 h2{
   font-size: 25px;
+}
+
+h3{
+  font-size: 35px;
 }
