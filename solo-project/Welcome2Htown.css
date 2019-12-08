@@ -24,7 +24,7 @@ ul{
  }
 
 .navbar-brand{
-  font-size: 32px; 
+  font-size: 32px;
 }
  body, html {
   height: 100%;
@@ -130,4 +130,5 @@ text-align: center;
 figcaption{
   text-emphasis: bold; 
   font-size: 20px;
+  color: #000a1a; 
 }
